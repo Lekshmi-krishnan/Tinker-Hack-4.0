@@ -1,3 +1,188 @@
-# Tinker-Hack-4.0
+<p align="center">
+  <img src="./img.png" alt="Project Banner" width="100%">
+</p>
 
-https://uml.planttext.com/plantuml/png/PLHDRzim3BqRy7yWSjXEsUgaJTgX29gvxLeWm8gcwLsLQOU8B7cId24ezjydMuvRnGS3vkFZnoDftnZBjArB4KS2SmjMWQPYQo4ZZToIad5aTYGhfba95UCxLk3Q7WH2usUo41X7SSIuLHf6FuLI6JpZdngDHJq2PZwiddMhfFA-zgt7brb9iiNRjoPlNmH6AyfHa4H8bPGEXlN1PIr7y1v70CrJ6-JCEEeQcUPRdntU3k3R-gLLNS4NM2dE6cLjfKsQ1A6lX7zToqoCNwX4MEuP2VP6WkoXuqy2_k-N9tX5JJa5IQS1QLC9nJ9uKAOYomGyQQNoZdaUCBjX-OuxnaLOKE8u5SHtpHoicnnyZ7EJpWAkgxEd3E71wR5R9_rEK45U3JpAN7LHyo3gdeJRbazhEiPbm5YfWkJtPooet_8clJfP0Q-rsvLGTGQtp39OknsxupbE_UoaKzoZj73FTWXtqch2O-d4BUXVSmjVOMcCujJEsSHHVrWm7Y_y8a-XoH2w64BdGsWsX2w7q5NJbh-oljvdSngQyz1iezjBFmeuEx4JB_jHSb5dpHSdlFOjLKw_qmBVslxX1rnVasSj5fyyiw5duZtpeMVgFKbowegZ6vHP-vFu3m00
+# [Lifeline Connect] 🎯
+
+## Basic Details
+
+### Team Name: LeVis
+
+### Team Members
+- Member 1: [Lekshmi Krishnan] - [College of Engineering and management Punnapra]
+- Member 2: [Vidhya Vijayan] - [College of Engineering and management Punnapra]
+
+### Hosted Project Link
+[mention your project hosted link here]
+
+### Project Description
+[Lifeline Connect is a smart blood donor finder website that quickly connects patients nearby donors in emergencies.It filters donors by blood group and location to show the best matches instantly.]
+
+### The Problem statement
+[In emergencies, patients struggle to find nearby, available blood donors quickly.
+
+Existing platforms show outdated availability and lack real-time “willing to donate now” status.
+
+Requests are scattered, and there’s no clear visibility of active donors vs urgent requests.]
+
+### The Solution
+[Real-time availability toggle (“Willing to Donate Now”) ensures only active donors are shown.
+
+Location-based matching (Alappuzha) helps find nearby donors fast.
+
+Clear blood group & unit info avoids confusion in emergencies.
+
+One-click call/email reduces delay in contacting donors.]
+
+---
+
+## Technical Details
+
+### Technologies
+- Languages used: HTML,CSS,JavaScript
+- Frameworks used:Vite
+- Libraries used:EmailJS,Firebase
+- Tools used: VS Code, Git&GitHub, Browser]
+
+---
+
+## Features
+
+List the key features of your project:
+- Feature 1:Blood Donor Search by Blood Group & Location
+- Feature 2:“Willing to Donate Now” (Real-Time Availability)
+- Feature 3:Direct Contact Options
+- Feature 4: User Authentication (Firebase)
+
+---
+
+## Implementation
+
+#### Installation
+```bash
+Installation commands: git clone https://github.com/Lekshmi-krishnan/Tinker-Hack-4.0.git
+
+cd Tinker-Hack-4.0
+
+npm install
+
+
+```
+
+#### Run
+```bash
+[Run commands - npm run dev]
+```
+
+---
+
+## Project Documentation
+
+#### Screenshots (Add at least 3)
+
+![Screenshot1](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+#### Diagrams
+
+**System Architecture:**
+
+![Architecture Diagram](docs/architecture.png)
+*Explain your system architecture - components, data flow, tech stack interaction*
+
+## 🖼️ Application Workflow
+
+![Lifeline Connect Workflow](https://uml.planttext.com/plantuml/png/PLHDRzim3BqRy7yWSjXEsUgaJTgX29gvxLeWm8gcwLsLQOU8B7cId24ezjydMuvRnGS3vkFZnoDftnZBjArB4KS2SmjMWQPYQo4ZZToIad5aTYGhfba95UCxLk3Q7WH2usUo41X7SSIuLHf6FuLI6JpZdngDHJq2PZwiddMhfFA-zgt7brb9iiNRjoPlNmH6AyfHa4H8bPGEXlN1PIr7y1v70CrJ6-JCEEeQcUPRdntU3k3R-gLLNS4NM2dE6cLjfKsQ1A6lX7zToqoCNwX4MEuP2VP6WkoXuqy2_k-N9tX5JJa5IQS1QLC9nJ9uKAOYomGyQQNoZdaUCBjX-OuxnaLOKE8u5SHtpHoicnnyZ7EJpWAkgxEd3E71wR5R9_rEK45U3JpAN7LHyo3gdeJRbazhEiPbm5YfWkJtPooet_8clJfP0Q-rsvLGTGQtp39OknsxupbE_UoaKzoZj73FTWXtqch2O-d4BUXVSmjVOMcCujJEsSHHVrWm7Y_y8a-XoH2w64BdGsWsX2w7q5NJbh-oljvdSngQyz1iezjBFmeuEx4JB_jHSb5dpHSdlFOjLKw_qmBVslxX1rnVasSj5fyyiw5duZtpeMVgFKbowegZ6vHP-vFu3m00)
+
+**Caption:**  
+This diagram illustrates the complete workflow of Lifeline Connect. Requesters search for donors, submit blood requests with hospital proof, and get matched with OTP-verified donors who indicate real-time availability. Donors manage their eligibility and availability, while the system ensures secure authentication, cloud data storage, and prevention of fake entries. This ensures fast, reliable, and trustworthy blood donation connections during emergencies.
+
+
+### For Scripts/CLI Tools:
+
+#### Command Reference
+
+**Basic Usage:**
+```bash
+python script.py [options] [arguments]
+```
+
+**Available Commands:**
+- `command1 [args]` - Description of what command1 does
+- `command2 [args]` - Description of what command2 does
+- `command3 [args]` - Description of what command3 does
+
+**Options:**
+- `-h, --help` - Show help message and exit
+- `-v, --verbose` - Enable verbose output
+- `-o, --output FILE` - Specify output file path
+- `-c, --config FILE` - Specify configuration file
+- `--version` - Show version information
+
+**Examples:**
+
+```bash
+# Example: Basic usage
+python script.py input.txt
+```
+
+#### Demo Output
+
+**Example: Basic Processing**
+
+**Input:**
+```
+This is a sample input file
+with multiple lines of text
+for demonstration purposes
+```
+
+**Command:**
+```bash
+python script.py sample.txt
+```
+
+**Output:**
+```
+Processing: sample.txt
+Lines processed: 3
+Characters counted: 86
+Status: Success
+Output saved to: output.txt
+```
+
+---
+
+## Project Demo
+
+### Video
+[Add your demo video link here - YouTube, Google Drive, etc.]
+
+*Explain what the video demonstrates - key features, user flow, technical highlights*
+
+### Additional Demos
+[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
+
+---
+
+## Team Contributions
+
+- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
+- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
+- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+
+---
+
+## License
+
+This project is licensed under the [MIT] License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ at TinkerHub
