@@ -172,29 +172,29 @@ const Dashboard = () => {
                         <h2 style={{ marginBottom: '1rem', color: 'var(--primary-color)' }}>Your Active Requests</h2>
                         <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))' }}>
                             {myRequests.map(req => (
-                                <div key={req.id} className="card" style={{ padding: '1.5rem', borderColor: '#e63946', position: 'relative', background: '#fff5f5' }}>
+                                <div key={req.id} className="card" style={{ padding: '1.5rem', borderColor: '#292666ff', position: 'relative', background: '#fff5f5' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
-                                        <span style={{ background: '#d62839', color: 'white', padding: '0.2rem 0.8rem', borderRadius: '20px', fontWeight: 'bold' }}>
+                                        <span style={{ background: '#e7939bff', color: 'white', padding: '0.2rem 0.8rem', borderRadius: '20px', fontWeight: 'bold' }}>
                                             {req.bloodGroup} Needed
                                         </span>
-                                        <span style={{ fontSize: '0.8rem', color: '#555', background: 'white', padding: '2px 8px', borderRadius: '4px', border: '1px solid #ddd' }}>
+                                        <span style={{ fontSize: '0.8rem', color: '#ceea96ff', background: 'white', padding: '2px 8px', borderRadius: '4px', border: '1px solid #ddd' }}>
                                             {req.status?.toUpperCase()}
                                         </span>
                                     </div>
 
                                     <h3 style={{ fontSize: '1.2rem', marginBottom: '0.2rem' }}>{req.hospitalName}</h3>
-                                    <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '1rem' }}>
+                                    <p style={{ fontSize: '0.9rem', color: '#654754ff', marginBottom: '1rem' }}>
                                         <i className="fa-solid fa-location-dot" style={{ marginRight: '5px' }}></i> {req.city}
                                     </p>
 
                                     <div style={{ background: 'white', padding: '1rem', borderRadius: '8px', marginBottom: '1rem' }}>
                                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', fontSize: '0.9rem' }}>
                                             <div>
-                                                <strong style={{ display: 'block', color: '#666', fontSize: '0.8rem' }}>Patient</strong>
+                                                <strong style={{ display: 'block', color: '#5b4999ff', fontSize: '0.8rem' }}>Patient</strong>
                                                 {req.patientName}
                                             </div>
                                             <div>
-                                                <strong style={{ display: 'block', color: '#666', fontSize: '0.8rem' }}>Units</strong>
+                                                <strong style={{ display: 'block', color: '#5b4999ff', fontSize: '0.8rem' }}>Units</strong>
                                                 {req.units}
                                             </div>
                                         </div>
@@ -328,7 +328,7 @@ const Dashboard = () => {
 
                     {/* Right Column: Key Donors */}
                     <div className="donors-section">
-                        <h2 style={{ marginBottom: '1rem', color: '#2ecc71' }}>Willing Donors</h2>
+                        <h2 style={{ marginBottom: '1rem', color: '#29b630ff' }}>Willing Donors</h2>
                         <div className="search-container" style={{ marginBottom: '1rem' }}>
                             <i className="fa-solid fa-magnifying-glass search-icon"></i>
                             <input
@@ -350,7 +350,7 @@ const Dashboard = () => {
                                             <h4 style={{ margin: 0, fontSize: '1.1rem' }}>
                                                 {donor.name} {donor.email === user?.email && <span style={{ fontSize: '0.8rem', color: '#666', fontWeight: 'normal' }}>(You)</span>}
                                             </h4>
-                                            <span style={{ background: '#e8f8f5', color: '#2ecc71', padding: '0.1rem 0.5rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                                            <span style={{ background: '#e8f8f5', color: '#29b630ff', padding: '0.1rem 0.5rem', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 'bold' }}>
                                                 {donor.bloodGroup}
                                             </span>
                                         </div>
@@ -359,7 +359,7 @@ const Dashboard = () => {
                                         </p>
 
                                         <div style={{ marginTop: '0.8rem', fontSize: '0.95rem', fontWeight: 'bold', color: '#333' }}>
-                                            <i className="fa-solid fa-phone" style={{ color: '#2ecc71', marginRight: '5px' }}></i>
+                                            <i className="fa-solid fa-phone" style={{ color: '#29b630ff', marginRight: '5px' }}></i>
                                             {donor.phone || 'No Phone'}
                                         </div>
 
